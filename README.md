@@ -14,7 +14,7 @@ Henrique Weege - https://github.com/henriqueweege
 * Jean Cesar - https://github.com/jeancesar
 * Henrique Weege - https://github.com/henriqueweege
 * Dhionys Soares - https://github.com/dhionys-soares
-* chapolin-sc - https://github.com/chapolin-sc
+* Tiago de Carvalho - https://github.com/chapolin-sc
 
 ## ⚙️ Tecnologias
 * C# 12
@@ -31,10 +31,13 @@ Henrique Weege - https://github.com/henriqueweege
 * Muito conhecimento técnico
 
 ## 🧪 Como testar o projeto
-1. Clonar o projeto
-2. Definir a connection string no appsettings.json no projeto Dima.Api
-3. Executar dotnet ef migrations add Views e dotnet ef migrations add Seed
-4. Executar o camando dotnet ef database update
+**Testar o projeto Dima**
+
+Caso queira testar manualmente:
+1. Clonar o projeto;
+2. Caso esteja com o banco de dados criado, deletar;
+3. Definir a connection string no appsettings.json do projeto Dima.Api;
+4. Executar dotnet ef database update dentro do projeto Dima.Api 
 5. Executar ambos os projetos Dima.Api e Dima.Web:
    - dotnet clean
    - dotnet restore
